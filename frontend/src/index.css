@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url(../public/bg.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 15px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  background-color: aliceblue;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background: #1b1b1b;
+  border-radius: 5px;
+}
